@@ -1,6 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
+	font-family: "Arial";
 }
 
 body {
@@ -10,12 +11,10 @@ body {
 
 h1{
 	color: white;
-	font-family: "Arial";
 }
 
 h4{
 	color: #C0C0C0;
-	font-family: "Arial";
 }
 
 ul {
@@ -35,4 +34,16 @@ li {
 	background-color: #404040;
 	padding: 8px;
 	padding-left: 15%;
+}
+
+.main_container {
+	padding-left: 22%;
+	padding-right: 22%;
+	padding-top: 1%;
+}
+
+.moi_teil{
+	padding-top: 1%;
+	padding-left: 12%;
+	padding-right: 22%;
 }
