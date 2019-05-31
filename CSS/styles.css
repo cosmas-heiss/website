@@ -30,12 +30,21 @@ li {
 	vertical-align: middle;
 }
 
+hr{
+	border: 0;
+	height: 2px;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+	margin-bottom: 10px;
+	margin-top: 2px;
+	/*box-shadow: 0px 0px 3px #0F0F0F;*/
+}
+
 .header {
 	background-color: #404040;
 	padding: 8px;
 }
 
-.main_container {
+.main_section {
 	margin-left: 22%;
 	margin-right: 18%;
 	margin-top: 1%;
@@ -43,6 +52,10 @@ li {
 	height: 1000px;
 	background-color: white;
 	box-shadow: 2px 2px 4px #0F0F0F;
+}
+
+.sub_section{
+	margin:10%;
 }
 
 .my_img{
