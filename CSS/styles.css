@@ -10,15 +10,8 @@ body {
 	background-size: 10%;
 }
 
-h1{
-	color: white;
-}
 
-h4{
-	color: #C0C0C0;
-}
-
-ul {
+.header ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -34,14 +27,19 @@ hr{
 	border: 0;
 	height: 2px;
 	background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-	margin-bottom: 10px;
+	margin-bottom: 2px;
 	margin-top: 2px;
 	/*box-shadow: 0px 0px 3px #0F0F0F;*/
 }
 
-.header {
+.nav_bar {
 	background-color: #404040;
-	padding: 8px;
+	padding: 12px;
+}
+
+.section_header {
+	padding-bottom:10px;
+	font-size:150%;
 }
 
 .main_section {
@@ -54,8 +52,14 @@ hr{
 	box-shadow: 2px 2px 4px #0F0F0F;
 }
 
-.sub_section{
-	margin:10%;
+.inside_section{
+	padding-top: 15px;
+	padding-left: 25px;
+}
+
+.nav_link{
+	color: #C0C0C0;
+	text-decoration: none;
 }
 
 .my_img{
