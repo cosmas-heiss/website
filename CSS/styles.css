@@ -7,7 +7,7 @@
 body {
 	background-image: url("../Images/background_image5.png");
 	background-repeat: repeat;
-	background-size: 10%;
+	background-size: 150px;
 }
 
 
@@ -19,6 +19,9 @@ ul {
 
 li {
 	display: inline-block;
+}
+
+.nav_bar_list li{
 	padding-right: 40px;
 	vertical-align: middle;
 }
@@ -35,7 +38,7 @@ hr{
 .nav_bar {
 	background-color: #404040;
 	padding: 12px;
-	padding-left: calc(22vw + 12px);
+	padding-left: calc(22vw - 212px);
 }
 
 .section_header {
@@ -46,6 +49,8 @@ hr{
 .main_section {
 	max-width: 900px;
 	height: 1000px;
+	width: calc(100% - 205px);
+	min-width: 600px;
 	background-color: white;
 	box-shadow: 2px 2px 4px #0F0F0F;
 }
@@ -67,7 +72,4 @@ hr{
 	box-shadow: 2px 2px 4px #0F0F0F;
 	width: 200px;
 	height: 200px;
-	max-width: 22vw;
-	max-height: 22vw;
-	display:inline-block;
 }
