@@ -11,7 +11,7 @@ body {
 }
 
 
-.header ul {
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -35,6 +35,7 @@ hr{
 .nav_bar {
 	background-color: #404040;
 	padding: 12px;
+	padding-left: calc(22vw + 12px);
 }
 
 .section_header {
@@ -43,10 +44,7 @@ hr{
 }
 
 .main_section {
-	margin-left: 22%;
-	margin-right: 18%;
-	margin-top: 1%;
-	width: 60%;
+	max-width: 900px;
 	height: 1000px;
 	background-color: white;
 	box-shadow: 2px 2px 4px #0F0F0F;
@@ -63,12 +61,13 @@ hr{
 }
 
 .my_img{
-	margin-top: 1%;
 	float: left;
-	margin-left: 9%;
+	margin-right: 5px;
 	background-color: white;
 	box-shadow: 2px 2px 4px #0F0F0F;
-	width: 12%;
-	height: 12%;
-	display: inline-block
+	width: 200px;
+	height: 200px;
+	max-width: 22vw;
+	max-height: 22vw;
+	display:inline-block;
 }
